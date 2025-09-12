@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Agriculture Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 Smart Agriculture Assistant</h1>
+
+    <form id="inputForm">
+      <label for="location">📍 Location:</label>
+      <input type="text" id="location" required>
+
+      <label for="ph">🧪 Soil pH:</label>
+      <input type="number" step="0.1" id="ph" required>
+
+      <label for="moisture">💧 Soil Moisture (%):</label>
+      <input type="number" id="moisture" required>
+
+      <button type="submit">Get Recommendations</button>
+    </form>
+
+    <div id="results" class="hidden">
+      <h2>🌱 Crop Recommendations:</h2>
+      <ul id="cropList"></ul>
+
+      <h2>🌤 Weather:</h2>
+      <div id="weatherInfo"></div>
+
+      <h2>🐛 Fertilizer & Pest Advisory:</h2>
+      <div id="advisoryInfo"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
