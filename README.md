@@ -4,7 +4,7 @@
 * Use **Flutter** or **Android Studio (Kotlin)** to build a mobile app.
 * Create screens for:
 
-  * Home screen
+  * Home screen making of interface
   * Crop input form (for user to enter soil type, weather info, etc.)
   * Recommended crop results
   * Weather information
