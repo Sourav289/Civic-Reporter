@@ -59,7 +59,7 @@
 
 ---
 
-## 💡 Tools Use: design and template
+## 💡 Tools Use: design and template  using sensors for to detect the ph of water and soil
 
 * **VS Code** or **Android Studio** – for coding
 * **Postman** – to test APIs
