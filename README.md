@@ -1,4 +1,4 @@
-# Bhoomi-AI
+#Blood Donar Aleret
 A AI ASSITENCE USED FOR FARMERS
 ### 1. **Front-End (What users see and use)**
 * Use **Flutter** or **Android Studio (Kotlin)** to build a mobile app.
