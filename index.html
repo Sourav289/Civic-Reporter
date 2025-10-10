@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Civic Issue Reporter</title>
+
+  <script type="module" src="app.js"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9fafb;
+      padding: 40px;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    form {
+      max-width: 400px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #2563eb;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1e40af;
+    }
+    .message {
+      text-align: center;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <h1>🛠️ Civic Issue Reporter</h1>
+
+  <form id="issueForm">
+    <input type="text" id="name" placeholder="Your Name" required />
+    <input type="text" id="location" placeholder="Location" required />
+    <textarea id="description" rows="4" placeholder="Describe the issue..." required></textarea>
+    <button type="submit">Submit Issue</button>
+  </form>
+
+  <div class="message" id="message"></div>
+</body>
+</html>
